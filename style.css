@@ -1,0 +1,155 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(40, 7, 110);
+    color: white;
+    font-family:cursive;
+}
+
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header img{
+    width: 30%;
+}
+
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+   
+   
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 1px;
+    border-color: white;
+    border-style:dotted;
+}
+
+.score-board{
+    display: flex;
+    
+}
+
+.score-board input, .result input,  .count-holder input {
+    background-color:rgb(40, 7, 110) ;
+    border: none;
+    color: white;
+}
+
+#attempt-info{
+    background-color:rgb(40, 7, 110) ;
+    border: none;
+    color: yellow;
+    font-size: 16px;
+    justify-content: center;
+    
+
+}
+
+.human, .computer{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+}
+
+#c-total, #h-total{
+    font-size: 16px;
+    font-weight: bolder;
+    font-family:cursive;
+
+}
+
+#result-label{
+    display: flex;
+    color: red;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 16px;
+}
+
+
+#h-selection, #c-selection{
+    margin-top: 6px;
+    margin-bottom: 6px;
+    color: greenyellow;
+}
+
+#h-score, #c-score{
+    font-size: 30px;
+}
+
+.btn-holder, .count-holder{
+    padding: 20px;
+}
+
+
+ .btn-holder button{
+    padding: 15px;
+    width: 100px;
+    height: 100px;
+
+    border: none;
+    border-radius: 50px;
+    color: rgb(40, 7, 110);
+    font-weight:bolder;
+    font-size: 20px;
+    font-family:cursive;
+    margin-right: 10px;
+
+}
+
+.btn-holder button:hover{
+    
+    border-style:dashed;
+    color: rgb(40, 7, 110);
+}
+
+#btn-rock:hover{
+    background-color: rgb(245, 9, 233);
+    color: white;
+
+}
+
+#btn-paper:hover{
+    background-color: rgb(20, 244, 181);
+    color: white;
+
+}
+
+#btn-scissors:hover{
+    background-color: rgb(8, 81, 159);
+    color: white;
+
+}
+
+.reset-btn-holder button{
+    background-color: rgb(40, 7, 110);
+    border-color: white;
+    border-style: dashed;
+    color: white;
+    padding: 10px;   
+    margin-bottom: 10px; 
+    border-radius: 25px;
+    font-weight: bold;
+
+}
+
+.reset-btn-holder button:hover{
+    color: rgb(40, 7, 110);
+    border: none;
+    background-color: white;
+}
